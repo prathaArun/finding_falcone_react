@@ -1,0 +1,16 @@
+.App {
+  position: relative;
+  height: 100vh;
+  h1 {
+    text-align: center;
+  }
+  .bg-img {
+    position: absolute;
+    background-image: url("../src/assets/falcone-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: calc(100vh - 90%);
+    bottom: 0;
+  }
+}
